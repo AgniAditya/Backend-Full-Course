@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Dashboard - Cloud IDE</title>
+  <link rel="stylesheet" href="dashboard.css" />
+  <link rel="icon" href="https://img.icons8.com/ios/50/ffffff/cloud.png" type="image/x-icon">
+</head>
+<body>
+  <div class="container">
+    <!-- Navigation Bar -->
+    <header class="header">
+      <div class="logo">Cloud IDE</div>
+      <nav class="nav-links">
+        <a href="/dashboard" class="active">Dashboard</a>
+        <a href="/projects">Projects</a>
+        <a href="/settings">Settings</a>
+        <a href="/logout">Logout</a>
+      </nav>
+    </header>
+
+    <!-- Main content -->
+    <main class="main-content">
+      <header class="greeting">
+        <h1>Welcome back, John!</h1>
+        <a href="/login" class="logout-btn">Logout</a>
+      </header>
+
+      <!-- Profile Section -->
+      <section class="profile-section">
+        <img
+          src="https://randomuser.me/api/portraits/men/41.jpg"
+          alt="John Doe"
+          class="profile-img"
+        />
+        <div class="profile-info">
+          <h2 class="username">John Doe</h2>
+          <p class="email">johndoe@gmail.com</p>
+        </div>
+      </section>
+
+      <!-- Projects Section -->
+      <section class="projects-section">
+        <div class="projects-grid">
+          <div class="project-card create-new">
+            <div class="plus-icon">+</div>
+            <p>Create New Project</p>
+          </div>
+          <div class="project-card">
+            <p>Project 1</p>
+          </div>
+          <div class="project-card">
+            <p>Project 2</p>
+          </div>
+          <div class="project-card">
+            <p>Project 3</p>
+          </div>
+          <div class="project-card">
+            <p>Project 4</p>
+          </div>
+          <div class="project-card">
+            <p>Project 5</p>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+</body>
+</html>
